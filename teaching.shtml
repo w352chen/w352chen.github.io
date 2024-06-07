@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Helen Weixu Chen</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .navbar-brand, .nav-link {
+      color: #007bff !important;
+    }
+    .profile-image {
+      width: 100%; /* Adjusts to the width of the column */
+      border-radius: 50%;
+      max-width: 200px; /* Size of the image */
+      display: block;
+      margin: 0 auto; /* Centers the image in its column */
+    }
+    .about-section {
+      padding-top: 30px; /* Increased padding for more space below the navbar */
+      display: flex;
+      align-items: center;
+    }
+    .about-text {
+      margin-left: 30px; /* Space between image and text */
+      flex-grow: 1;
+    }
+    .container {
+      max-width: 960px; /* Optionally restricts the max width for better content management */
+      margin: auto;
+    }
+    @media (min-width: 768px) {
+      .about-section {
+        justify-content: center; /* Centers the content */
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Helen Weixu Chen</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="teaching.shtml">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.shtml">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.shtml">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container p-3">
+
+    <h3>Teaching</h3>
+
+    <p>
+    I have been very fortunate to work alongside dedicated instructors and engage with a diverse group of hard-working and talented students in the following courses as an Instructional Support Assistant (ISA) at the University of Waterloo. This page is to share feedback that I have received from students - both the accolades and the constructive criticism. I greatly appreciate their sincere and kind words.</p>
+    <p>Working with these students has been a mutually enriching experience. Not only did I have the opportunity to share my knowledge and help with their growth, but they also taught me valuable lessons on effective communication, being supportive without coddling, and showing genuine care.</p>
+    <p>I want to thank the Course Instructional Coordinator, Scott King, for collecting and providing me with this valuable feedback at the end of each term. 
+    </p>
+
+    <div class="container pb-2"></div>
+
+    <h5>
+        <a href="https://cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/CS137">CS 137</a> - Programming Principles. Fall 2023:
+    </h5>
+
+    <ul>
+        <li>I received anonymous feedback from 13 students. All of them provided the same responses to the following scale questions:</li>
+            <ul>
+                <form>
+                <li><label>How would you rate how knowledgeable your ISA/TA was?</label><br></li>
+                    <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+                    <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+                </form> 
+                <form>
+                    <li><label>Please rate the ISA/TA's preparedness</label><br></li>
+                        <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+                        <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+                        <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+                        <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+                        <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+                        <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+                </form>
+                <form>
+                    <li><label>Was the ISA/TA feedback helpful and did the ISA/TA challenges you to learn?</label><br></li>
+                        <label><input type="radio" name="satisfaction" value="1" checked> All of the time</label><br>
+                        <label><input type="radio" name="satisfaction" value="2"> Most of the time</label><br>
+                        <label><input type="radio" name="satisfaction" value="3"> Some of the time</label><br>
+                        <label><input type="radio" name="satisfaction" value="4"> Rarely</label><br>
+                        <label><input type="radio" name="satisfaction" value="4"> Never</label><br>
+                </form>
+                <form>
+                    <li><label>What is your overall ranking of the ISA/TA?</label><br></li>
+                        <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+                        <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+                        <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+                        <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+                        <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+                        <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+                </form>           
+            </ul>
+  
+        <li>Some students provided extra comments, while others did not. Below are the comments written by the students:</li>
+            <ul>
+                <li>Thank you so much for your time, you were incredibly helpful.</li>
+                <li>She is the best, most passionate, and most capable teaching assistant I've ever had.</li>
+                <li>Helen was extremely helpful and very knowledgeable throughout the course.</li>
+                <li>Helen is extremely hard working.</li>
+                <li>Helen helped me pass the course.</li>
+                <li>Helen was an incredibly dedicatd TA, spending many hours in office hours individually helping us all!</li>
+            </ul>
+    </ul>
+
+    <div class="container pb-2"></div>
+
+    <h5>
+        <a href="https://cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/CS137">CS 137</a> - Programming Principles. Fall 2022:
+    </h5>
+
+    <ul>
+        <li>I received anonymous feedback from 16 students. 15 of them provided the same responses to the following scale questions:</li>
+        <ul>
+            <form>
+                <li><label>How would you rate how knowledgeable your ISA/TA was?</label><br></li>
+                    <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+                    <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+            </form> 
+            <form>
+                <li><label>Please rate the ISA/TA's preparedness</label><br></li>
+                    <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+                    <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+            </form>
+            <form>
+                <li><label>Was the ISA/TA feedback helpful and did the ISA/TA challenges you to learn?</label><br></li>
+                    <label><input type="radio" name="satisfaction" value="1" checked> All of the time</label><br>
+                    <label><input type="radio" name="satisfaction" value="2"> Most of the time</label><br>
+                    <label><input type="radio" name="satisfaction" value="3"> Some of the time</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Rarely</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Never</label><br>
+            </form>
+            <form>
+                <li><label>What is your overall ranking of the ISA/TA?</label><br></li>
+                    <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+                    <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+            </form>           
+        </ul>
+
+        <li>One student responded the following scale questions as below:</li>
+        <ul>
+            <form>
+                <li><label>How would you rate how knowledgeable your ISA/TA was?</label><br></li>
+                    <label><input type="radio" name="satisfaction" value="1"> Excellent</label><br>
+                    <label><input type="radio" name="satisfaction" value="2" checked> Very Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+            </form> 
+            <form>
+                <li><label>Please rate the ISA/TA's preparedness</label><br></li>
+                    <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+                    <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+            </form>
+            <form>
+                <li><label>Was the ISA/TA feedback helpful and did the ISA/TA challenges you to learn?</label><br></li>
+                    <label><input type="radio" name="satisfaction" value="1"> All of the time</label><br>
+                    <label><input type="radio" name="satisfaction" value="2"> Most of the time</label><br>
+                    <label><input type="radio" name="satisfaction" value="3" checked> Some of the time</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Rarely</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Never</label><br>
+            </form>
+            <form>
+                <li><label>What is your overall ranking of the ISA/TA?</label><br></li>
+                    <label><input type="radio" name="satisfaction" value="1" > Excellent</label><br>
+                    <label><input type="radio" name="satisfaction" value="2" checked> Very Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+                    <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+            </form>           
+        </ul>
+
+  <!-- <li>One student responded the following scale questions as below:</li> -->
+
+    <!-- <li>How would you rate how knowledgeable your ISA/TA was? Excellent</dd>
+    <li>Please rate the ISA/TA's preparedness: Excellent</li>
+    <li>Was the ISA/TA feedback helpful and did the ISA/TA challenges you to learn? All of the time</li>
+    <li>What is your overall ranking of the ISA/TA? Excellent</li> -->
+  <!-- </ul> -->
+        <li>Some students provided extra comments, while others did not. Below are the comments written by the students:</li>
+        <ul>
+            <li>I am very thankful to have Helen as my TA. She helps me in every assignment, and clears every doubt I have.</li>
+            <li>I enjoyed her tutorials, however the material could have better prepared us for assignments if it was more difficult.</li>
+            <li>Helen was always approachable and willing to help. She was always able to quickly identify problems that my code was having and helped me fix the issues. Helen's tutorials on Tuesdays were also really helpful as they helped me apply the concepts onto problems so I could understand them. I truly appreciate her dedication to the students as she was always there on Friday evenings for many many hours helping all the students finish their assignments. Helen was a huge part of why I learned so much during this course.</li>
+            <li>Thank you Helen for helping me so so so many times!! Definitely the most responsible TA I've ever met. Glad to have you as my CS TA. Yougoated🐐</li>
+            <li>best TA ever</li>
+            <li>Helen is an angel descended from heaven. She stays hours over time and comes on extra days to help us with challenging units and assignments especially in the post-pointer era. She helps us figure out weird bugs in our code even if it means her staying up past midnight... She explains hard concepts extremely well and uses great examples and gives us just enough hints and let us figure out things on our own. She prompts us to think harder to discover things on our own. She always brings back our smiles when we were on the verge of crying. She is so patient, so encouraging, so detailed, and always goes above and beyond. It is truly our pleasure and luck to have her as our TA. I will be eternally grateful for her.</li>
+            <li>Helen went so far above and beyond. She stayed up late to help us, and she made CS tutorials by far the best of any of our courses. Not sure if these messages get passed along to the ISA/TA's, but if they do, thank you Helen for everything you've done this term.</li>
+            <li>Helen is so supportive and helpful! I wish she was my TA for every single course. I have learned so much from her, not just from her computing skills but from her disposition, helpfulness, and sacrifice of her precious time for us as well.</li>
+            <li>Thanks for the super extended office hours!</li>
+            <li>goated TA</li>
+            <li>Helen is genuinely such an amazing, approachable, knowledgeable presence in our class and has always gone above and beyond for us. We are so thankful to have her!</li>
+            <li>Helen has been very helpful. Always available to give help. Her help is very appreciated. Thank you!!</li>
+            <li>I LOVE Helen!!! SHE IS SO NICE!!</li>
+            <li>I am beyond grateful to have a ISA like Helen.</li>
+        </ul>
+        <li>Below is a review on <a href="https://uwflow.com/">UW Flow</a> CS137’s course page and is located
+            under the “Professor reviews” tab. This site is designed for students at the University of
+            Waterloo to review their courses and for future students to view the reviews to see which
+            instructor to pick and gain a better understanding of the course design (workload, time
+            commitment, etc).</li>
+        <ul>
+            <li>...Also had Helen as my TA, absolutely God-sent. She stays hours over time and comes on extra days to help us with challenging units and assignments, especially in the post-pointer era. She helps us figure out weird bugs in our code even if it means her staying up past midnight... She explains hard concepts extremely well and uses great examples and gives us just enough hints and lets us figure out things on our own. She prompts us to think harder to discover things on our own. She is so patient, encouraging, detailed, and always goes above and beyond. It is truly our pleasure and luck to have Helen as our TA. I will be eternally grateful.</li>
+        </ul>
+    </ul>
+
+    <div class="container pb-2"></div>
+
+    <h5>
+        <a href="https://student.cs.uwaterloo.ca/~cs136L/">CS 136L</a> - Tool and Techniques for Software Development. Spring 2022:
+    </h5>
+
+    <ul>
+  <li>I assisted two instructors in developing the course, which, during that term, had no student enrollments.</li>
+    </ul>
+
+    <div class="container pb-2"></div>
+
+    <h5>
+        <a href="https://cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/CS116">CS 116</a> - Introduction to Computer Science 2. Winter 2022:
+    </h5>
+
+    <ul>
+  <li>I received anonymous feedback from three students. All of them provided the same responses to the following scale questions:</li>
+  <ul>
+    <form>
+    <li><label>How would you rate how knowledgeable your ISA/TA was?</label><br></li>
+        <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+        <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+        <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+        <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+        <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+        <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+    </form> 
+    <form>
+        <li><label>Please rate the ISA/TA's preparedness</label><br></li>
+            <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+            <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+            <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+            <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+    </form>
+    <form>
+        <li><label>Was the ISA/TA feedback helpful and did the ISA/TA challenges you to learn?</label><br></li>
+            <label><input type="radio" name="satisfaction" value="1" checked> All of the time</label><br>
+            <label><input type="radio" name="satisfaction" value="2"> Most of the time</label><br>
+            <label><input type="radio" name="satisfaction" value="3"> Some of the time</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Rarely</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Never</label><br>
+    </form>
+    <form>
+        <li><label>What is your overall ranking of the ISA/TA?</label><br></li>
+            <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+            <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+            <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+            <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+    </form>           
+  </ul>
+  
+  <li>Two students provided extra comments. Below are the comments written by the students:</li>
+  <ul>
+    <li>best ta ever</li>
+    <li>Helen helped me a lot!! I will give her a 10/10.</li>
+  </ul>
+    </ul>
+
+    <div class="container pb-2"></div>
+
+    <h5>
+        <a href="https://cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/CS116">CS 116</a> - Introduction to Computer Science 2. Fall 2021:
+    </h5>
+
+    <ul>
+  <li>I received anonymous feedback from four students. All of them provided the same responses to the following scale questions:</li>
+  <ul>
+    <form>
+    <li><label>How would you rate how knowledgeable your ISA/TA was?</label><br></li>
+        <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+        <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+        <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+        <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+        <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+        <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+    </form> 
+    <form>
+        <li><label>Please rate the ISA/TA's preparedness</label><br></li>
+            <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+            <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+            <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+            <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+    </form>
+    <form>
+        <li><label>Was the ISA/TA feedback helpful and did the ISA/TA challenges you to learn?</label><br></li>
+            <label><input type="radio" name="satisfaction" value="1" checked> All of the time</label><br>
+            <label><input type="radio" name="satisfaction" value="2"> Most of the time</label><br>
+            <label><input type="radio" name="satisfaction" value="3"> Some of the time</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Rarely</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Never</label><br>
+    </form>
+    <form>
+        <li><label>What is your overall ranking of the ISA/TA?</label><br></li>
+            <label><input type="radio" name="satisfaction" value="1" checked> Excellent</label><br>
+            <label><input type="radio" name="satisfaction" value="2"> Very Good</label><br>
+            <label><input type="radio" name="satisfaction" value="3"> Good</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Satisfactory</label><br>
+            <label><input type="radio" name="satisfaction" value="4"> Unsatisfactory</label><br>
+            <label><input type="radio" name="satisfaction" value="5"> No Comment</label><br>
+    </form>           
+  </ul>
+  
+  <li>All students provided extra comments. Below are the comments written by the students:</li>
+  <ul>
+    <li>Helen was a great ISA/IA. She was helpful and I could tell she cared about the success of the students. She helped me learn and was very knowledgable.</li>
+    <li>Helen helped me after another ISA was unable to and Helen was amazingly patient, kind, and helpful.</li>
+    <li>very nice</li>
+    <li>Before coming the course I had imposter syndrome and was unsure I could problem solve and code effectively. Helen helped change my way of thinking and gave me much needed confidence. I believe any future student would be blessed to have her as an ISA.</li>
+  </ul>
+    </ul>
+  </div>
+          
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Helen Weixu Chen</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .navbar-brand, .nav-link {
+      color: #007bff !important;
+    }
+    .profile-image {
+      width: 100%; /* Adjusts to the width of the column */
+      /* border-radius: 50%; */
+      max-width: 200px; /* Size of the image */
+      display: block;
+      margin: 0 auto; /* Centers the image in its column */
+    }
+    .about-section {
+      padding-top: 20px; /* Increased padding for more space below the navbar */
+      display: flex;
+      align-items: center;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px 0;
+      margin-top: auto; /* Pushes the footer to the bottom */
+      /* background-color: #f8f9fa;  */
+      width: 100%;
+    }
+    .about-text {
+      margin-left: 30px; /* Space between image and text */
+      flex-grow: 1;
+    }
+    .container {
+      max-width: 960px; /* Optionally restricts the max width for better content management */
+      margin: auto;
+    }
+    @media (min-width: 768px) {
+      .about-section {
+        justify-content: center; /* Centers the content */
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Helen Weixu Chen</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.shtml">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="teaching.shtml">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.shtml">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.shtml">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container about-section">
+    <img src="head.jpg" alt="Helen Weixu Chen" class="profile-image">
+    <div class="about-text">
+      <h3>About</h3>
+      <p>
+        I am an undergraduate student in Computer Science at the University of Waterloo. Before joining Computer Science, I majored in Recreation and Leisure Studies. </p>
+        <p>I am passionate about Human-Centred Computing, CS Education, and volunteering. I am also a Karate enthusiast, bike rider, and traveller in my spare time. </p>
+        <p>You are welcome to <a href="mailto:w352chen@uwaterloo.ca">email</a> me if you have questions about undergraduate application, internal transfer to CS, or co-op job applications. I have gotten so much love and care through my life journey, and this is my way of giving back.
+      </p>
+      <p><a target="_blank" href="resume.pdf">CV</a> | <a href="mailto:w352chen@uwaterloo.ca">Email</a></p>
+    </div>
+  </div>
+  <footer class="footer">
+  <p>Last update: 2024/05. Template adapted from <a href=https://www.cs.toronto.edu/~axgao/>Alice Gao</a>'s.</p>
+  </footer>
+  
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+

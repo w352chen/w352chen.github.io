@@ -71,8 +71,22 @@
     <h3>Research</h3>
 
     <p>
-        <a target="_blank" href="https://cs.uwaterloo.ca/~lanortha/index.html">Prof. Lesley Istead</a> introduced me to Computer Science and research, serving as the instructor for my first CS course. 
-        She also took me as an Undergraduate Research Assistant (URA) for my initial research project and co-authored the first paper of my career. Without her, I would not be where I am today. 
+          My research interests lie in human-computer interaction (HCI), artificial intelligence (AI), and computer science education (CS Education). </p>
+          <p>I am interested in bridging the gap between current technologies and humans. 
+          It is way too common that current technologies miss the 'human' element, even though we emphasize user-friendliness. For example, generative AI tools such as DALL-E3, Stable Diffusion, and DeepFloyed IF transform textual prompts into images. 
+          These tools seem straightforward to use, but the challenge lies in creating the perfect prompt to generate the desired images, a process commonly referred to as prompt engineering. 
+          Users often turn to AI like ChatGPT to help craft these prompts. 
+          ChatGPT assists users by structuring descriptions and choosing appropriate modifiers based on user input. 
+          However, these tools often lack the domain-specific knowledge needed for tasks like fashion design, requiring users to provide extremely detailed and precise descriptions, which assumes a high level of expertise in the domain, something not all users possess. 
+          One of my research projects aims to enable users to produce high-quality outputs without spending extensive time on prompt engineering or repeatedly clicking the generate button. 
+          Our work has been summarized in a paper listed below, i.e., <a target="_blank" href="Imagine_a_Dress.pdf">"Imagine a dress": Exploring the case of task-specific prompt assistants for text-to-image AI tools</a>. </p>
+          <p>Additionally, I have a passion for teaching. 
+          I have worked as an Instructional Support Assistant across six terms, supporting over 2000 students in four different computer science courses. 
+          For more details on the courses I have assisted with and student evaluations, please refer to the 'Teaching' tab. 
+          My interests in CS education research include integrating elements into the curriculum that enhance students' consideration of humanity. </p>
+          <p>As a senior undergraduate student and junior researcher, I greatly appreciate the guidance from my supervisors. 
+          I am still in the process of exploring my research topics and am open to collaborating on projects related to HCI, AI, and CS education. 
+          Please feel free to email me if you are interested in discussing potential collaborations.
     </p>
 
     <div class="container pb-2"></div>
@@ -84,7 +98,7 @@
     </h5>
     <ul>
     <li>
-        <b>Abstract</b>: In this paper we explore the impact of task-specific prompt assistants for text-to-image generative AI tools through a user study. Participants were asked to recreate a dress with SDXL using either a prompt assistant tailored to dress design, or, no assistant at all. A detailed analysis of the results and feedback suggests that for this specific task, a tailored assistant improves result satisfaction and accuracy. This style of assistant helps users focus on the task by providing a detailed, visual and organized approach to describing the object---enabling faster production times and more accurate descriptions with less ambiguity.
+        <b>Abstract</b>: In this paper we explore the impact of task-specific prompt assistants for text-to-image generative AI tools through a user study. Participants were asked to recreate a dress with SDXL using either a prompt assistant tailored to dress design, or, no assistant at all. A detailed analysis of the results and feedback suggests that for this specific task, a tailored assistant improves result satisfaction and accuracy. This style of assistant helps users focus on the task by providing a detailed, visual and organized approach to describing the object---enabling faster production times and more accurate descriptions with less ambiguity. <a target="_blank" href="Imagine_a_Dress.pdf">Preprint</a>
     </li>
     </ul>
     <div class="container pb-2"></div>
@@ -96,7 +110,7 @@
     </h5>
     <ul>
     <li>
-        The project is currently undergoing data analysis.
+      We are currently in the process of summarizing our findings into a paper.
     </li>
     </ul>
 

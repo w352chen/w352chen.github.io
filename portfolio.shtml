@@ -119,19 +119,20 @@
     Mark Visualization
     </h5>
     <ul>
-        <li>
-            This project’s purpose was to track the courses a student has taken during their career at the University of Waterloo. It includes the course admin section for adding and listing courses, the visualization section for metrics including Average by Term and Progress towards Degree, and the status bar displaying averages and counts. <a target="_blank" href="https://github.com/w352chen/UI-MarkVisualizationTool.git4"> Source Code</a>
-        </li>
+        <!-- <li> -->
+            The purpose of this project is to track the courses a student has taken during their career at the University of Waterloo. 
+            It includes the course admin section for adding and listing courses, the visualization section for metrics including Average by Term, Progress towards Degree, and the status bar displaying averages and counts. <a target="_blank" href="https://github.com/w352chen/UI-MarkVisualizationTool.git4"> Source Code</a>
+        <!-- </li> -->
         <div class="container">
             <div class="image-row">
-                <img src="set_up.png" alt="Mark Visualization">
-                <img src="add_course.png" alt="Mark Visualization">
-                <img src="average_by_term.png" alt="Mark Visualization">  
+                <img src="set_up.png" alt="Mark Visualization" width="400" height="200">
+                <img src="add_course.png" alt="Mark Visualization" width="200" height="200">
+                <img src="average_by_term.png" alt="Mark Visualization" width="400" height="200">  
             </div>
             <div class="image-row">
-                <img src="bar.png" alt="Mark Visualization">
-                <img src="pie.png" alt="Mark Visualization">
-                <img src="incremental.png" alt="Mark Visualization">
+                <img src="bar.png" alt="Mark Visualization" width="300" height="200">
+                <img src="pie.png" alt="Mark Visualization" width="300" height="200">
+                <img src="incremental.png" alt="Mark Visualization" width="400" height="200">
             </div>
         </div>
     </ul>
@@ -141,18 +142,18 @@
         Battleship
     </h5>
     <ul>
-        <li>
+        <!-- <li> -->
             The web UI implements the board game Battleship. (Click <a target="_blank" href="https://www.hasbro.com/common/instruct/battleship.pdf">here</a> to see the Rules of Battleship(Hasbro)). <a target="_blank" href="https://github.com/w352chen/UI-Battleship.git"> Source Code</a>
-        </li>
+        <!-- </li> -->
         <div class="container">
             <div class="image-row">
-                <img src="start.png" alt="Battleship">
-                <img src="animation.png" alt="Battleship">
-                <img src="game.png" alt="Battleship">
+                <img src="start.png" alt="Battleship" width="400" height="200">
+                <img src="animation.png" alt="Battleship" width="300" height="200">
+                <img src="game.png" alt="Battleship" width="400" height="200">
             </div>
             <div class="image-row">
-                <img src="AI_wins.png" alt="Battleship">
-                <img src="player_wins.png" alt="Battleship">
+                <img src="AI_wins.png" alt="Battleship" width="400" height="200">
+                <img src="player_wins.png" alt="Battleship" width="400" height="200">
             </div>
         </div>
     </ul> 
@@ -162,6 +163,25 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
+
+<style>
+  .bottom-bar {
+    background-color: #f4f4f4; /* Dark background color */
+    color: #007bff; /* White text */
+    text-align: center; /* Center the text */
+    padding: 10px 0; /* Add padding for spacing */
+    position: static; /* Change from fixed to static */
+    width: 100%; /* Ensure it spans the full width of the viewport */
+  }
+
+  .bottom-bar p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Optional: Adjust the font size */
+  }
+</style>
+<footer class="bottom-bar">
+  <p>© Helen Weixu Chen 2024</p>
+</footer>
 </body>
 </html>
+

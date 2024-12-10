@@ -1,152 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <title>Helen Weixu Chen</title>
-  <style>
-    body {
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    .navbar-brand, .nav-link {
-      color: #007bff !important;
-    }
-    .profile-image {
-      width: 100%; /* Adjusts to the width of the column */
-      border-radius: 50%;
-      max-width: 200px; /* Size of the image */
-      display: block;
-      margin: 0 auto; /* Centers the image in its column */
-    }
-    .about-section {
-      padding-top: 30px; /* Increased padding for more space below the navbar */
-      display: flex;
-      align-items: center;
-    }
-    .about-text {
-      margin-left: 30px; /* Space between image and text */
-      flex-grow: 1;
-    }
-    .container {
-      max-width: 960px; /* Optionally restricts the max width for better content management */
-      margin: auto;
-    }
-    @media (min-width: 768px) {
-      .about-section {
-        justify-content: center; /* Centers the content */
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Helen Weixu Chen - Research</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
       }
-    }
-  </style>
-</head>
-<body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">Helen Weixu Chen</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="teaching.shtml">Teaching</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="research.shtml">Research</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.shtml">Portfolio</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+      body {
+        display: flex;
+        flex-direction: column;
+        /* min-height: 100vh */
+        
+      }
 
-  <div class="container p-3">
-
-    <h3>Research</h3>
-
-    <p>
-          My research interests lie in human-computer interaction (HCI), artificial intelligence (AI), and computer science education (CS Education). </p>
-          <p>I am interested in bridging the gap between current technologies and humans. 
-          It is way too common that current technologies miss the 'human' element, even though we emphasize user-friendliness. For example, generative AI tools such as DALL-E3, Stable Diffusion, and DeepFloyed IF transform textual prompts into images. 
-          These tools seem straightforward to use, but the challenge lies in creating the perfect prompt to generate the desired images, a process commonly referred to as prompt engineering. 
-          Users often turn to AI like ChatGPT to help craft these prompts. 
-          ChatGPT assists users by structuring descriptions and choosing appropriate modifiers based on user input. 
-          However, these tools often lack the domain-specific knowledge needed for tasks like fashion design, requiring users to provide extremely detailed and precise descriptions, which assumes a high level of expertise in the domain, something not all users possess. 
-          One of my research projects aims to enable users to produce high-quality outputs without spending extensive time on prompt engineering or repeatedly clicking the generate button. 
-          Our work has been summarized in a paper listed below, i.e., <a target="_blank" href="Imagine_a_Dress.pdf">"Imagine a dress": Exploring the case of task-specific prompt assistants for text-to-image AI tools</a>. </p>
-          <p>Additionally, I have a passion for teaching. 
-          I have worked as an Instructional Support Assistant across six terms, supporting over 2000 students in four different computer science courses. 
-          For more details on the courses I have assisted with and student evaluations, please refer to the 'Teaching' tab. 
-          My interests in CS education research include integrating elements into the curriculum that enhance students' consideration of humanity. </p>
-          <p>As a senior undergraduate student and junior researcher, I greatly appreciate the guidance from my supervisors. 
-          I am still in the process of exploring my research topics and am open to collaborating on projects related to HCI, AI, and CS education. 
-          Please feel free to email me if you are interested in discussing potential collaborations.
-    </p>
-
-    <div class="container pb-2"></div>
-
-    <!-- <h5>Current Research</h5> -->
-
-    <h5>
-      "Imagine a Dress": Exploring the case of task-specific prompt assistants for text-to-image AI tools
-    </h5>
-    <ul>
-    <li>
-        <b>Abstract</b>: In this paper we explore the impact of task-specific prompt assistants for text-to-image generative AI tools through a user study. Participants were asked to recreate a dress with SDXL using either a prompt assistant tailored to dress design, or, no assistant at all. A detailed analysis of the results and feedback suggests that for this specific task, a tailored assistant improves result satisfaction and accuracy. This style of assistant helps users focus on the task by providing a detailed, visual and organized approach to describing the object---enabling faster production times and more accurate descriptions with less ambiguity. <a target="_blank" href="Imagine_a_Dress.pdf">Preprint</a>
-    </li>
-    </ul>
-    <div class="container pb-2"></div>
-
-    <!-- <h5>Current Research</h5> -->
-
-    <h5>
-      Whether teaching material on computing and discrimination is more effective online or in a face-to-face classroom
-    </h5>
-    <ul>
-    <li>
-      We are currently in the process of summarizing our findings into a paper.
-    </li>
-    </ul>
-
-    <div class="container pb-2"></div>
-
-    <!-- <h5>Current Research</h5> -->
-
-    <h5>
-        Managing Privacy and Environment for Used and End-of-Life Electronic Devices
-    </h5>
-    <ul>
-    <li>
-        The project is currently engaged in the analysis of survey data and the design of user studies.
-    </li>
-    </ul>
-
-    <div class="container pb-2"></div>
-
-    <!-- <h5>Current Research</h5> -->
-
-    <h5>
-        Using chatbots to reveal personal biases and decision-making
-    </h5>
-    <ul>
-    <li>
-        I am looking for collaborators to work on the project! <a target="_blank" href="Research Proposal.pdf">Research Proposal</a>
-    </li>
-    </ul>
+    /* Main content should expand to take available space */
+      .content {
+        flex: 1;
+        /* padding-bottom: 40px; */
+      }
       
-    </div>
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      .footer {
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #007bff;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* Ensures footer stays at the bottom */
+  padding-top: 15px;
+  bottom: 0; /* Stick it to the bottom */
+  left: 0; /* Align with the left edge */
+}
   
-</body>
+      
+      
+      
+      .navbar-brand, .nav-link {
+        color: #007bff !important;
+      }
+      .nav-link.active {
+        font-weight: bold;
+        color: #0056b3 !important;
+      }
+      .container {
+        max-width: 960px;
+        margin: auto;
+      }
+      .research-section {
+        margin-bottom: 70px;
+      }
+      .research-paper {
+        display: flex;
+        align-items: center; /* Aligns items vertically in the middle */
+        gap: 20px; /* Space between the image and the text */
+        margin-bottom: 30px;
+      }
+
+      .paper-image {
+        width: 200px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .paper-content {
+        flex: 1; /* Ensures the text takes up available space */
+      }
+      .paper-title {
+        font-size: 1.25em;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .paper-abstract {
+        margin: 0;
+        line-height: 1.6;
+      }
+      
+
+    /* Flexbox layout for the body */
+    
+      
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Helen Weixu Chen</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teaching.shtml">Teaching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="research.shtml">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.shtml">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container p-3">
+      <h3>Research</h3>
+      <p>This page lists my published and accepted research work. 
+        I am deeply grateful to my supervisors for their guidance and to my collaborators for their support.</p>
+      <div class="research-section">
+        <div class="research-paper">
+          <img src="GI24.png" alt="Imagine a Dress" class="paper-image" width="650" height="400" />
+          <div class="paper-content">
+            <h5 class="paper-title">
+              "Imagine a Dress": Exploring the case of task-specific prompt assistants for text-to-image AI tools
+            </h5>
+            <p><strong>Helen Weixu Chen</strong>* and Lesley Istead*</p>
+            <p class="paper-abstract">
+              <strong>Abstract:</strong> In this paper, we explore the impact of task-specific prompt assistants for text-to-image generative AI tools through a user study. 
+              Participants were asked to recreate a dress with SDXL using either a prompt assistant tailored to dress design, or no assistant at all. 
+              A detailed analysis of the results and feedback suggests that for this specific task, a tailored assistant improves result satisfaction and accuracy. 
+              This style of assistant helps users focus on the task by providing a detailed, visual, and organized approach to describing the object—enabling faster production times and more accurate descriptions with less ambiguity. <a target="_blank" href="https://doi.org/10.1145/3670947.3670972">DOI</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="research-section">
+        <div class="research-paper">
+          <img src="SIGCSE25.png" alt="Self-Disclosure" class="paper-image" />
+          <div class="paper-content">
+            <h5 class="paper-title">
+              Self-Disclosure and Beyond: Takeaways from an Online and In-Person Computing Ethics Course
+            </h5>
+            <p><strong>Helen Weixu Chen</strong>, Maura R. Grossman, and Daniel G. Brown</p>
+            <p class="paper-abstract">
+              <strong>Abstract:</strong> We evaluate the amount and nature of self-disclosure in two versions of a 400-level computing ethics course focusing on discrimination and surveillance. 
+              The study involved 30 participants enrolled in two identical course offerings, taught by the same pair of instructors,
+              but delivered in different formats: online versus in-person. 
+              Our analysis concentrated on the extent and contents of self-disclosure by
+              both students and instructors. By using both quantitative and qualitative methods, we observed a higher prevalence of self-disclosure
+              by both students and instructors in the online section. Notably, an
+              analysis of demographic data revealed that minority group members
+              were particularly active in self-disclosure in both formats. Overall,
+              our findings suggest that an online setting may be more effective
+              for delivering computing ethics courses where a primary goal is
+              increasing open discussion and self-disclosure among participants.
+              <a target="_blank" href="https://drive.google.com/file/d/1zKL0q28oYapwNJehRhb76PLF4zSHf5Bs/view?usp=sharing">Preprint</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="research-section">
+        <div class="research-paper">
+          <img src="path-to-image3.jpg" alt="Managing Privacy" class="paper-image" />
+          <div class="paper-content">
+            <h5 class="paper-title">
+              Managing Privacy and Environment for Used and End-of-Life Electronic Devices
+            </h5>
+            <p class="paper-abstract">
+              The project is currently engaged in the analysis of survey data and the design of user studies.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="research-section">
+        <div class="research-paper">
+          <img src="path-to-image4.jpg" alt="Chatbots and Biases" class="paper-image" />
+          <div class="paper-content">
+            <h5 class="paper-title">
+              Using Chatbots to Reveal Personal Biases and Decision-Making
+            </h5>
+            <p class="paper-abstract">
+              I am looking for collaborators to work on the project! <a target="_blank" href="Research Proposal.pdf">Research Proposal</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <footer class="footer">
+      <p>© Helen Weixu Chen 2024</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
 </html>
-  

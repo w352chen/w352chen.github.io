@@ -1,81 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <title>Helen Weixu Chen</title>
-  <style>
-    body {
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    .navbar-brand, .nav-link {
-      color: #007bff !important;
-    }
-    .profile-image {
-      width: 100%; /* Adjusts to the width of the column */
-      /* border-radius: 50%; */
-      max-width: 200px; /* Size of the image */
-      display: block;
-      margin: 0 auto; /* Centers the image in its column */
-    }
-    .image-row {
-        display: flex; /* Aligns children (images) in a row */
-        justify-content: space-around; /* Spaces images evenly */
-        align-items: center; /* Centers images vertically */
-        padding: 5px; /* Adds some padding around the images */
-    }
-    .image-row img {
-        width: auto; /* Maintains the original width of the image */
-        height: 180px; /* Sets a fixed height for all images */
-        margin: 10px; 
-    }
-    .about-section {
-      padding-top: 30px; /* Increased padding for more space below the navbar */
-      display: flex;
-      align-items: center;
-    }
-    .about-text {
-      margin-left: 30px; /* Space between image and text */
-      flex-grow: 1;
-    }
-    .container {
-      max-width: 960px; /* Optionally restricts the max width for better content management */
-      margin: auto;
-    }
-    @media (min-width: 768px) {
-      .about-section {
-        justify-content: center; /* Centers the content */
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Helen Weixu Chen</title>
+    <style>
+      body {
+        background-color: #ffffff;
+        color: #333;
       }
-    }
-  </style>
-</head>
-<body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">Helen Weixu Chen</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="teaching.shtml">Teaching</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="research.shtml">Research</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.shtml">Portfolio</a>
-          </li>
-        </ul>
+      .navbar-brand, .nav-link {
+        color: #007bff !important;
+      }
+      .nav-link.active {
+        font-weight: bold;
+        color: #0056b3 !important; /* Optional: darker color for active links */
+      }
+      .profile-image {
+        width: 100%;
+        max-width: 200px;
+        display: block;
+        margin: 0 auto;
+      }
+      .about-section {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+      }
+      .footer {
+        text-align: center;
+        padding: 20px 0;
+        margin-top: auto;
+        width: 100%;
+      }
+      .about-text {
+        margin-left: 30px;
+        flex-grow: 1;
+      }
+      .container {
+        max-width: 960px;
+        margin: auto;
+      }
+      @media (min-width: 768px) {
+        .about-section {
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Helen Weixu Chen</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="personal.shtml" id="home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teaching.shtml" id="teaching">Teaching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research.shtml" id="research">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="portfolio.shtml" id="portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+    
 
   <div class="container p-3">
 
@@ -89,29 +96,22 @@
       Bind
     </h5>
     <ul>
-    <li>
-        I collaborated in a team of four on a project aimed at connecting students with professionals, focusing on initiatives, such as job shadowing. Our mission was to design a mobile application facilitating meaningful connections between students and professionals for valuable learning experiences. Throughout the project, we conducted user interviews to understand the context and needs of both students and professionals. Leveraging HCI principles, we created intuitive
-        and user-friendly designs, iterating from low-fidelity prototypes to high-fidelity interactive solutions. <a target="_blank" href="https://www.youtube.com/watch?v=jjwykiUbCh4"> Video Demo</a> | <a target="_blank" href="https://bwilliamwang.wixsite.com/bind"> Design Process</a>
-    </li>
-    <p></p>
-
-    <div class="container">
-        <div class="row">
-          <div class="col-3">
-            <img src="bind.jpg" alt="Bind" class="profile-image">
-          </div>
-          <div class="col-3">
-            <img src="profile.png" alt="Bind" class="profile-image">
-          </div>
-          <div class="col-3">
-            <img src="calendar.png" alt="Bind" class="profile-image">
-          </div>
-          <div class="col-3">
-            <img src="chat_interface_with_switch_tab.png" alt="Bind" class="profile-image">
-          </div>
+    <!-- <li> -->
+      I collaborated with a team of four on a project aimed at connecting students with professionals, with a focus on job shadowing. 
+      Throughout the project, we conducted user interviews to understand the context and needs of both students and professionals. 
+      We also designed low-fidelity prototypes and iteratively refined them into high-fidelity interactive solutions. 
+      The application enables students and professionals to find, connect with, meet, and evaluate each other, fostering meaningful learning experiences.<a target="_blank" href="https://bwilliamwang.wixsite.com/bind"> Design Process</a>
+        <div>
+          <iframe width="640" height="360" 
+            src="https://www.youtube.com/embed/jjwykiUbCh4?si=p3yFT150Lj49t7u2" 
+            title="Bind" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
         </div>
-      </div>
-    </ul>
+      </ul>
+
 
     <div class="container pb-2"></div>
 

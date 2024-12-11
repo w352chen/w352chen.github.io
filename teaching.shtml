@@ -6,47 +6,86 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Helen Weixu Chen</title>
     <style>
-      body {
-        background-color: #ffffff;
-        color: #333;
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
       }
+      body {
+        display: flex;
+        flex-direction: column;
+        /* min-height: 100vh */
+        
+      }
+
+    /* Main content should expand to take available space */
+      .content {
+        flex: 1;
+        /* padding-bottom: 40px; */
+      }
+      
+      .footer {
+        text-align: center;
+        background-color: #f4f4f4;
+        color: #007bff;
+        border-top: 1px solid #ddd;
+        font-size: 14px;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed; /* Ensures footer stays at the bottom */
+        padding-top: 15px;
+        bottom: 0; /* Stick it to the bottom */
+        left: 0; /* Align with the left edge */
+      }
+      
       .navbar-brand, .nav-link {
         color: #007bff !important;
       }
       .nav-link.active {
         font-weight: bold;
-        color: #0056b3 !important; /* Optional: darker color for active links */
-      }
-      .profile-image {
-        width: 100%;
-        max-width: 200px;
-        display: block;
-        margin: 0 auto;
-      }
-      .about-section {
-        padding-top: 20px;
-        display: flex;
-        align-items: center;
-      }
-      .footer {
-        text-align: center;
-        padding: 20px 0;
-        margin-top: auto;
-        width: 100%;
-      }
-      .about-text {
-        margin-left: 30px;
-        flex-grow: 1;
+        color: #0056b3 !important;
       }
       .container {
         max-width: 960px;
         margin: auto;
       }
-      @media (min-width: 768px) {
-        .about-section {
-          justify-content: center;
-        }
+      .research-section {
+        margin-bottom: 70px;
       }
+      .research-paper {
+        display: flex;
+        align-items: center; /* Aligns items vertically in the middle */
+        gap: 20px; /* Space between the image and the text */
+        margin-bottom: 30px;
+      }
+
+      .paper-image {
+        width: 200px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .paper-content {
+        flex: 1; /* Ensures the text takes up available space */
+      }
+      .paper-title {
+        font-size: 1.25em;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .paper-abstract {
+        margin: 0;
+        line-height: 1.6;
+      }
+      
+
+    /* Flexbox layout for the body */
+    
+      
     </style>
   </head>
   <body>
@@ -423,28 +462,14 @@
   <!-- </ul> -->
     </ul>
   </div>
-          
+  
+  <div style="height: 50px;"></div>
+
+<footer class="footer">
+  <p>© Helen Weixu Chen 2024</p>
+</footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-  <style>
-    .bottom-bar {
-      background-color: #f4f4f4; /* Dark background color */
-      color: #007bff; /* White text */
-      text-align: center; /* Center the text */
-      padding: 10px 0; /* Add padding for spacing */
-      position: static; /* Change from fixed to static */
-      width: 100%; /* Ensure it spans the full width of the viewport */
-    }
-
-    .bottom-bar p {
-      margin: 0; /* Remove default margin */
-      font-size: 14px; /* Optional: Adjust the font size */
-    }
-  </style>
-  <footer class="bottom-bar">
-    <p>© Helen Weixu Chen 2024</p>
-  </footer>
 </body>
 </html>

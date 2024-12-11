@@ -165,7 +165,7 @@
       <a target="_blank" href="https://github.com/w352chen/MarkVisualizationTool.git">Source Code</a>
         <div>
           <video id="markVideo" autoplay muted loop width="640" height="350">
-            <source src="markManage.mov" type="video/quicktime">
+            <source src="movie.mp4" type="video/quicktime">
             Your browser does not support the video tag.
           </video>
         </div>

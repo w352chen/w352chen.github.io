@@ -165,7 +165,7 @@
       <a target="_blank" href="https://github.com/w352chen/MarkVisualizationTool.git">Source Code</a>
         <div>
           <video id="markVideo" autoplay muted loop width="640" height="350">
-            <source src="movie.mp4" type="video/quicktime">
+            <source src="movie.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
         </div>
@@ -185,7 +185,7 @@
       <a target="_blank" href="https://github.com/w352chen/Battleship.git">Source Code</a>
       <div >
         <video id="battleVideo" autoplay muted loop width="650" height="315" style="margin: 0; padding: 0; display: block;">
-          <source src="battleship.mp4" type="video/quicktime">
+          <source src="battleship.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
@@ -207,7 +207,7 @@
   The main page shows a list of recipes, sorted in order of recommendation. A user can save their favourite recipes, add new recipes to the database, and keep track of a grocery list to help them with shopping. 
   <div >
     <video id="bitwisevideo" autoplay muted loop width="650" height="380" style="margin: 0; padding: 0; display: block;">
-      <source src="bitwise1.mp4" type="video/quicktime">
+      <source src="bitwise1.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>

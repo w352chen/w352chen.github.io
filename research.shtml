@@ -131,24 +131,6 @@
         I am deeply grateful to my supervisors for their guidance and to my collaborators for their support.</p>
       <div class="research-section">
         <div class="research-paper">
-          <img src="GI24.png" alt="Imagine a Dress" class="paper-image" width="650" height="400" />
-          <div class="paper-content">
-            <h5 class="paper-title">
-              "Imagine a Dress": Exploring the case of task-specific prompt assistants for text-to-image AI tools
-            </h5>
-            <p><strong>Helen Weixu Chen</strong>* and Lesley Istead*</p>
-            <p class="paper-abstract">
-              <strong>Abstract:</strong> In this paper, we explore the impact of task-specific prompt assistants for text-to-image generative AI tools through a user study. 
-              Participants were asked to recreate a dress with SDXL using either a prompt assistant tailored to dress design, or no assistant at all. 
-              A detailed analysis of the results and feedback suggests that for this specific task, a tailored assistant improves result satisfaction and accuracy. 
-              This style of assistant helps users focus on the task by providing a detailed, visual, and organized approach to describing the object—enabling faster production times and more accurate descriptions with less ambiguity. <a target="_blank" href="https://doi.org/10.1145/3670947.3670972">DOI</a>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="research-section">
-        <div class="research-paper">
           <img src="SIGCSE25.png" alt="Self-Disclosure" class="paper-image" />
           <div class="paper-content">
             <h5 class="paper-title">
@@ -167,11 +149,31 @@
               our findings suggest that an online setting may be more effective
               for delivering computing ethics courses where a primary goal is
               increasing open discussion and self-disclosure among participants.
-              <a target="_blank" href="https://drive.google.com/file/d/1zKL0q28oYapwNJehRhb76PLF4zSHf5Bs/view?usp=sharing">Preprint</a>
+              <a target="_blank" href="https://dl.acm.org/doi/10.1145/3641555.3705248">DOI</a> <a target="_blank" href="https://drive.google.com/file/d/1SeUgRO7HskR72mAnu1P-7YI_MnjhQWZb/view?usp=sharing">Poster Demo</a> 
             </p>
           </div>
         </div>
       </div>
+
+      <div class="research-section">
+        <div class="research-paper">
+          <img src="GI24.png" alt="Imagine a Dress" class="paper-image" width="650" height="400" />
+          <div class="paper-content">
+            <h5 class="paper-title">
+              "Imagine a Dress": Exploring the case of task-specific prompt assistants for text-to-image AI tools
+            </h5>
+            <p><strong>Helen Weixu Chen</strong>* and Lesley Istead*</p>
+            <p class="paper-abstract">
+              <strong>Abstract:</strong> In this paper, we explore the impact of task-specific prompt assistants for text-to-image generative AI tools through a user study. 
+              Participants were asked to recreate a dress with SDXL using either a prompt assistant tailored to dress design, or no assistant at all. 
+              A detailed analysis of the results and feedback suggests that for this specific task, a tailored assistant improves result satisfaction and accuracy. 
+              This style of assistant helps users focus on the task by providing a detailed, visual, and organized approach to describing the object—enabling faster production times and more accurate descriptions with less ambiguity. <a target="_blank" href="https://doi.org/10.1145/3670947.3670972">DOI</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
 
       <!-- <div class="research-section">
         <div class="research-paper">

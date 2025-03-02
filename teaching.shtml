@@ -106,7 +106,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="personal.shtml" id="home">Home</a>
+              <a class="nav-link" href="index.html" id="home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="teaching.shtml" id="teaching">Teaching</a>
@@ -128,7 +128,7 @@
     <h3>Teaching</h3>
 
     <p>
-    I have been very fortunate to work alongside wonderful instructors and engage with a diverse group of hard-working and brilliant students as a full-time/part-time Instructional Support Assistant (ISA) for seven semesters across four different CS courses (CS116, CS136L, CS137, and CS138) at the University of Waterloo. 
+    I have been very fortunate to work alongside wonderful instructors and engage with a diverse group of hard-working and brilliant students as a full-time/part-time Instructional Support Assistant (ISA) for eight semesters across five different CS courses (CS116, CS136L, CS137, CS138, and MATH642) at the University of Waterloo. 
     This page is to share feedback that I have received from students - both the accolades and the constructive criticism. 
     I greatly appreciate their sincere and kind words to help me reflect and further improve my teaching.</p>
     <!-- <p>Working with these students has been a mutually enriching experience. Not only did I have the opportunity to share my knowledge and help with their growth, but they also taught me valuable lessons on effective communication, being supportive without coddling, and showing genuine care.</p> -->
@@ -226,7 +226,7 @@
       Waterloo to review their courses and for future students to view the reviews to see which
       instructor to pick and gain a better understanding of the course design (workload, time
       commitment, etc).</li>
-      <img src="StudentEva.png" alt="Sample Photo" width="650" height="400">
+      <img src="images/StudentEva.png" alt="Sample Photo" width="650" height="400">
       <!-- <li>...Also had Helen as my TA, absolutely God-sent. She stays hours over time and comes on extra days to help us with challenging units and assignments, especially in the post-pointer era. She helps us figure out weird bugs in our code even if it means her staying up past midnight... She explains hard concepts extremely well and uses great examples and gives us just enough hints and lets us figure out things on our own. She prompts us to think harder to discover things on our own. She is so patient, encouraging, detailed, and always goes above and beyond. It is truly our pleasure and luck to have Helen as our TA. I will be eternally grateful.</li> -->
   
 </ul>
@@ -461,11 +461,12 @@
     <li>Before coming the course I had imposter syndrome and was unsure I could problem solve and code effectively. Helen helped change my way of thinking and gave me much needed confidence. I believe any future student would be blessed to have her as an ISA.</li>
   <!-- </ul> -->
     </ul>
+  <!-- </div> -->
   
   <div style="height: 50px;"></div>
 
 <footer class="footer">
-  <p>© Helen Weixu Chen 2024</p>
+  <p>© Helen Weixu Chen 2025</p>
 </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

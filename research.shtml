@@ -66,7 +66,7 @@
       }
 
       .paper-image {
-        width: 200px;
+        width: 250px;
         height: auto;
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -132,6 +132,26 @@
 
         <div class="research-section">
           <div class="research-paper">
+            <img src="images/COMPASS25_logo.jpeg" alt="Late-Breaking-Work-COMPASS" class="paper-image" />
+            <div class="paper-content">
+              <h5 class="paper-title">
+                The Therapeutic Potential of AI-Generated Art in Short-Term Stress Management
+              </h5>
+              <p>Pavaris Thongthanomkul, <strong>Helen Weixu Chen</strong>, and Lesley Istead</p>
+              <p class="paper-abstract">
+                <strong>Abstract:</strong> Art therapy is a combination of the creative process and psychotherapy that helps individuals with imagery, colour, and shape to promote self-exploration and support mental well-being. 
+                This therapy is often hands-on, providing tactile as well as expressive feedback.
+                However, new generative AI tools open up artistic creation to wider audiences through simple text-to-image generation. 
+                We present our experiment that compares the stress-reducing impact of generative AI to traditional methods. 
+                Ultimately, we find that text-to-image generative AI can reduce short-term stress through emotional expression and catharsis, but it is not as effective as traditional methods, owing to the lack of tactile feedback. (Accepted on May 11)
+                <!-- <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>   -->
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="research-section">
+          <div class="research-paper">
             <img src="images/CHI25_logo.png" alt="Late-Breaking-Work" class="paper-image" />
             <div class="paper-content">
               <h5 class="paper-title">
@@ -141,12 +161,12 @@
               <p class="paper-abstract">
                 <strong>Abstract:</strong> Artificial intelligence (AI) is tightly integrated into modern technology, yet existing exploratory XAI visualizations are primarily designed for users with technical expertise. 
                 This leaves everyday users, who now also rely on AI systems for work and tasks, with limited resources to explore or understand AI. 
-                In this work, we explored the use of LLM-driven narrative gamification to enhance the learning and engagement of exploratory XAI visualizations. 
+                In this work, we explored the use of LLM-driven narrative gamification to enhance the learning and engagement of exploratory XAI visualizations.
                 Specifically, we designed a design probe that enables non-experts to collect insights from an embedding projection by conversing directly with visualization elements similar to game NPCs. 
                 We conducted a preliminary comparative study to assess the effectiveness and usability of our design probe. 
                 Our study shows that while the tool enhances non-technical users’ AI knowledge and is perceived as beneficial, the impact of gamification alone on understanding remains inconclusive. 
-                Participant opinions on engagement are mixed: some find it enriching, while others see it as disruptive. (Accepted on Feb 22, 2025)
-                <!-- <a target="_blank" href="https://dl.acm.org/doi/10.1145/3641555.3705248">DOI</a> <a target="_blank" href="https://drive.google.com/file/d/1SeUgRO7HskR72mAnu1P-7YI_MnjhQWZb/view?usp=sharing">Poster Demo</a>  -->
+                Participant opinions on engagement are mixed: some find it enriching, while others see it as disruptive.
+                <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>  
               </p>
             </div>
           </div>
@@ -154,7 +174,7 @@
 
       <div class="research-section">
         <div class="research-paper">
-          <img src="images/SIGCSE25.png" alt="Self-Disclosure" class="paper-image" />
+          <img src="images/sigcse2025_logo.png" alt="Self-Disclosure" class="paper-image" />
           <div class="paper-content">
             <h5 class="paper-title">
               Self-Disclosure and Beyond: Takeaways from an Online and In-Person Computing Ethics Course

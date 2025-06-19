@@ -138,6 +138,18 @@
     <div class="container pb-2"></div>
 
     <h5>
+        <a href="https://cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/CS137">CS 137</a> - Programming Principles. Fall 2024:
+    </h5>
+    <ul>
+      <li>Helen's an amazing ISA. She's always helpful during her office hours and shows different/more effiicent ways to approach problems.</li>
+      <li>Her office hours were super helpful!</li>
+      <li>thanks Helen</li>
+      <li>Was very patient to help each student during office hours</li>
+    </ul>
+
+    <div class="container pb-2"></div>
+
+    <h5>
         <a href="https://cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/CS137">CS 137</a> - Programming Principles. Fall 2023:
     </h5>
     <ul>
@@ -147,6 +159,7 @@
       <li>Helen is extremely hard working.</li>
       <li>Helen helped me pass the course.</li>
       <li>Helen was an incredibly dedicatd TA, spending many hours in office hours individually helping us all!</li>
+      <li>Great TA!</li>
   </ul>
 
     <!-- <ul>
@@ -459,6 +472,7 @@
     <li>Helen helped me after another ISA was unable to and Helen was amazingly patient, kind, and helpful.</li>
     <li>very nice</li>
     <li>Before coming the course I had imposter syndrome and was unsure I could problem solve and code effectively. Helen helped change my way of thinking and gave me much needed confidence. I believe any future student would be blessed to have her as an ISA.</li>
+    <li>Excellent TA, very helpful!</li>
   <!-- </ul> -->
     </ul>
   <!-- </div> -->

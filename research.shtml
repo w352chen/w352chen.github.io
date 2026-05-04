@@ -132,6 +132,29 @@
 
         <div class="research-section">
           <div class="research-paper">
+            <img src="images/imx_logo.jpg" alt="Late-Breaking-Work-IMX" class="paper-image" />
+            <div class="paper-content">
+              <h5 class="paper-title">
+                A Multi-Modal Exploration of Diversity in Visual Media Production Industries
+              </h5>
+              <p>Lesley Istead, <strong>Helen Weixu Chen</strong>, Albert Lay, and Chris Joslin</p>
+              <p class="paper-abstract">
+                <strong>Abstract:</strong> because survey participation is often low and membership demographics are rarely public. We explore a multimodal approach to
+                studying diversity in the Canadian screen industry by combining
+                an anonymous survey with AI-assisted analysis of publicly available LinkedIn profiles. This study compares self-reported data from
+                167 survey participants with broader, but less certain, annotations
+                from over 10K public profiles. Findings suggest gendered differences in role distribution and salary, regional salary variation, and
+                reported discrimination related to gender and age. We discuss how
+                public profile analysis can complement surveys while introducing
+                platform bias and automated annotation uncertainty. (Accepted on April 30)
+                <!-- <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>   -->
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-section">
+          <div class="research-paper">
             <img src="images/COMPASS25_logo.jpeg" alt="Late-Breaking-Work-COMPASS" class="paper-image" />
             <div class="paper-content">
               <h5 class="paper-title">
@@ -143,8 +166,8 @@
                 This therapy is often hands-on, providing tactile as well as expressive feedback.
                 However, new generative AI tools open up artistic creation to wider audiences through simple text-to-image generation. 
                 We present our experiment that compares the stress-reducing impact of generative AI to traditional methods. 
-                Ultimately, we find that text-to-image generative AI can reduce short-term stress through emotional expression and catharsis, but it is not as effective as traditional methods, owing to the lack of tactile feedback. (Accepted on May 11)
-                <!-- <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>   -->
+                Ultimately, we find that text-to-image generative AI can reduce short-term stress through emotional expression and catharsis, but it is not as effective as traditional methods, owing to the lack of tactile feedback.
+                <a target="_blank" href="https://dl.acm.org/doi/10.1145/3715335.3736317">DOI</a>  
               </p>
             </div>
           </div>
@@ -248,7 +271,7 @@
     </div> -->
 
     <footer class="footer">
-      <p>© Helen Weixu Chen 2025</p>
+      <p>© Helen Weixu Chen 2026</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

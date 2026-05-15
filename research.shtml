@@ -132,6 +132,50 @@
 
         <div class="research-section">
           <div class="research-paper">
+            <img src="images/Page-1.pdf" alt="paper_img" class="paper-image" />
+            <div class="paper-content">
+              <h5 class="paper-title">
+                Sketch Bug: Using Sketch-Based Input for Interactive Code Debugging
+              </h5>
+              <p><strong>Helen Weixu Chen</strong> and Daniel Vogel</p>
+              <p class="paper-abstract">
+                <strong>Abstract:</strong> We investigate sketch-like pen input as an alternative way to support execution control in interactive debugging. 
+                In our interface, programmers draw lightweight marks to set breakpoints, use symbolic strokes to control execution, and extend strokes into spirals to repeat traversal actions. 
+                The prototype combines gesture recognition with Python execution tracing in a conventional editor interface. 
+                In a controlled study with 24 programmers, we compared the sketch interface with conventional mouse-and-keyboard input on debugging tasks that required breakpoint placement, step-wise execution, and runtime state inspection. 
+                The results show that sketch-like input can support these execution-control tasks, while also introducing challenges in precision, recognition, and gesture recall. 
+                Our findings suggest that pen input is most promising where debugger interactions benefit from spatial grounding or continuous movement, rather than as a wholesale replacement for conventional debugging controls. (Accepted on May 11)
+                <!-- <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>   -->
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-section">
+          <div class="research-paper">
+            <img src="images/gi-logo.png.webp" alt="think_inside_box" class="paper-image" />
+            <div class="paper-content">
+              <h5 class="paper-title">
+                Thinking Inside the Box: Building User Interfaces with Question-Guided Inputs
+              </h5>
+              <p>Sejal Agarwal*, <strong>Helen Weixu Chen</strong>*, Daniel Vogel, and Anamaria Crisan</p>
+              <p class="paper-abstract">
+                <strong>Abstract:</strong> Generative Artificial Intelligence (GenAI) tools are rapidly being used to support user interface (UI) development. 
+                When building UIs, AI chatbots are highly effective at instantiating and designing projects; however, the quality of the AI response is highly dependent
+                on the user’s ability to translate their ideas into well-structured and defined prompts. 
+                Factors like varying AI literacy, can lead to vague inputs, inefficient iteration, and suboptimal outputs. 
+                Furthermore, there has been little innovation in how users engage with AI chatbots, as most chatbots rely on free-form inputs from the user. 
+                We investigate prompting format as an interaction design problem by comparing a free-form format (FFF) with a question-guided format (QGF) that helps users structure their initial requests before code generation. 
+                A within-subject study with 12 participants completing two comparable UI-building tasks found that the QGF enabled significantly fewer iterations and revisions, illustrating that answering guided questions helps create a more satisfactory initial prompt.
+                Interview results also revealed that the QGF encouraged more deliberate reflection on requirements, but also introduced extra time and a sense of constraint for some participants. Our findings highlight a fundamental trade-off between speed and structured guidance, informing the design of future GenAI interfaces for development. (Accepted on May 11)
+                <!-- <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>   -->
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="research-section">
+          <div class="research-paper">
             <img src="images/imx_logo.jpg" alt="Late-Breaking-Work-IMX" class="paper-image" />
             <div class="paper-content">
               <h5 class="paper-title">

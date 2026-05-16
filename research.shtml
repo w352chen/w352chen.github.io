@@ -84,6 +84,40 @@
         margin: 0;
         line-height: 1.6;
       }
+      .abstract-controls {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        flex-wrap: wrap;
+        margin-top: 6px;
+      }
+      .abstract-toggle-btn {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        color: #007bff;
+        font-size: 0.95em;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .abstract-toggle-btn:hover {
+        text-decoration: underline;
+      }
+      .toggle-arrow {
+        font-size: 0.75em;
+        transition: transform 0.2s ease;
+        display: inline-block;
+      }
+      .abstract-content {
+        display: none;
+        margin-top: 6px;
+      }
+      .paper-link {
+        font-size: 0.95em;
+        color: #007bff;
+      }
       
 
     /* Flexbox layout for the body */
@@ -132,7 +166,7 @@
 
         <div class="research-section">
           <div class="research-paper">
-            <img src="images/Page-1.pdf" alt="paper_img" class="paper-image" />
+            <img src="images/Sketch_Bug-ezgif.com-gif-maker.gif" alt="sketch-bug" class="paper-image" />
             <div class="paper-content">
               <h5 class="paper-title">
                 Sketch Bug: Using Sketch-Based Input for Interactive Code Debugging
@@ -153,7 +187,7 @@
 
         <div class="research-section">
           <div class="research-paper">
-            <img src="images/gi-logo.png.webp" alt="think_inside_box" class="paper-image" />
+            <img src="images/gi.png" alt="think_inside_box" class="paper-image" />
             <div class="paper-content">
               <h5 class="paper-title">
                 Thinking Inside the Box: Building User Interfaces with Question-Guided Inputs
@@ -321,5 +355,39 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.paper-abstract').forEach(function (abstract) {
+          var links = Array.from(abstract.querySelectorAll('a'));
+
+          var btn = document.createElement('button');
+          btn.className = 'abstract-toggle-btn';
+          btn.innerHTML = '<strong>Abstract</strong><span class="toggle-arrow">▼</span>';
+
+          var controls = document.createElement('div');
+          controls.className = 'abstract-controls';
+          controls.appendChild(btn);
+
+          links.forEach(function (link) {
+            link.classList.add('paper-link');
+            controls.appendChild(link);
+          });
+
+          var wrapper = document.createElement('div');
+          wrapper.className = 'abstract-content';
+
+          abstract.parentNode.insertBefore(controls, abstract);
+          abstract.parentNode.insertBefore(wrapper, abstract);
+          wrapper.appendChild(abstract);
+
+          btn.addEventListener('click', function () {
+            var arrow = btn.querySelector('.toggle-arrow');
+            var isOpen = wrapper.style.display === 'block';
+            wrapper.style.display = isOpen ? 'none' : 'block';
+            arrow.style.transform = isOpen ? '' : 'rotate(180deg)';
+          });
+        });
+      });
+    </script>
   </body>
 </html>

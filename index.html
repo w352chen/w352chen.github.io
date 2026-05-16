@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <title>Helen Weixu Chen</title>
   <!-- <link rel="icon" type="image/png" href="images/UniversityOfWaterloo_logo_vert_rgb.png"> -->
   <style>
@@ -76,6 +77,42 @@
         justify-content: center;
       }
     }
+
+    .social-links {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      margin-top: 6px;
+    }
+    .social-icon {
+      position: relative;
+      color: #007bff;
+      font-size: 1.4em;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .social-icon:hover {
+      color: #0056b3;
+    }
+    .social-icon::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      bottom: calc(100% + 7px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: #333;
+      color: #fff;
+      font-size: 0.6em;
+      white-space: nowrap;
+      padding: 3px 8px;
+      border-radius: 4px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.15s;
+    }
+    .social-icon:hover::after {
+      opacity: 1;
+    }
   </style>
 </head>
 <body>
@@ -120,9 +157,17 @@
         <p>
           You are welcome to <a href="mailto:w352chen@uwaterloo.ca">email</a> me if you have questions about undergraduate application, internal transfer to CS, or co-op job applications. I have gotten so much love and care through my life journey, and this is my way of giving back.
         </p>
-        <p>
-          <a href="mailto:w352chen@uwaterloo.ca?subject=Request%20for%20CV">CV (by request)</a> | <a href="mailto:w352chen@uwaterloo.ca">Email</a> | <a href="https://scholar.google.com/citations?user=pT9OuusAAAAJ&hl=en">Google Scholar</a>
-        </p>
+        <div class="social-links">
+          <a href="mailto:w352chen@uwaterloo.ca?subject=Request%20for%20CV" class="social-icon" data-tooltip="CV (by request)">
+            <i class="fas fa-file-lines"></i>
+          </a>
+          <a href="mailto:w352chen@uwaterloo.ca" class="social-icon" data-tooltip="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?user=pT9OuusAAAAJ&hl=en" target="_blank" class="social-icon" data-tooltip="Google Scholar">
+            <i class="fab fa-google-scholar"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>

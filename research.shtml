@@ -166,7 +166,7 @@
 
         <div class="research-section">
           <div class="research-paper">
-            <img src="images/Sketch_Bug-ezgif.com-gif-maker.gif" alt="sketch-bug" class="paper-image" />
+            <img src="images/sketch-bug.gif" alt="sketch-bug" class="paper-image" />
             <div class="paper-content">
               <h5 class="paper-title">
                 Sketch Bug: Using Sketch-Based Input for Interactive Code Debugging

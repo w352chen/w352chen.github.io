@@ -178,7 +178,7 @@
                 The prototype combines gesture recognition with Python execution tracing in a conventional editor interface. 
                 In a controlled study with 24 programmers, we compared the sketch interface with conventional mouse-and-keyboard input on debugging tasks that required breakpoint placement, step-wise execution, and runtime state inspection. 
                 The results show that sketch-like input can support these execution-control tasks, while also introducing challenges in precision, recognition, and gesture recall. 
-                Our findings suggest that pen input is most promising where debugger interactions benefit from spatial grounding or continuous movement, rather than as a wholesale replacement for conventional debugging controls. (Accepted on May 11)
+                Our findings suggest that pen input is most promising where debugger interactions benefit from spatial grounding or continuous movement, rather than as a wholesale replacement for conventional debugging controls. (To appear in GI 2026)
                 <!-- <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>   -->
               </p>
             </div>
@@ -201,7 +201,8 @@
                 Furthermore, there has been little innovation in how users engage with AI chatbots, as most chatbots rely on free-form inputs from the user. 
                 We investigate prompting format as an interaction design problem by comparing a free-form format (FFF) with a question-guided format (QGF) that helps users structure their initial requests before code generation. 
                 A within-subject study with 12 participants completing two comparable UI-building tasks found that the QGF enabled significantly fewer iterations and revisions, illustrating that answering guided questions helps create a more satisfactory initial prompt.
-                Interview results also revealed that the QGF encouraged more deliberate reflection on requirements, but also introduced extra time and a sense of constraint for some participants. Our findings highlight a fundamental trade-off between speed and structured guidance, informing the design of future GenAI interfaces for development. (Accepted on May 11)
+                Interview results also revealed that the QGF encouraged more deliberate reflection on requirements, but also introduced extra time and a sense of constraint for some participants. 
+                Our findings highlight a fundamental trade-off between speed and structured guidance, informing the design of future GenAI interfaces for development. (To appear in GI 2026)
                 <!-- <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>   -->
               </p>
             </div>
@@ -224,8 +225,8 @@
                 from over 10K public profiles. Findings suggest gendered differences in role distribution and salary, regional salary variation, and
                 reported discrimination related to gender and age. We discuss how
                 public profile analysis can complement surveys while introducing
-                platform bias and automated annotation uncertainty. (Accepted on April 30)
-                <!-- <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>   -->
+                platform bias and automated annotation uncertainty. 
+                <a target="_blank" href="https://doi.org/10.1145/3788851.3815036">DOI</a>  
               </p>
             </div>
           </div>
@@ -293,7 +294,7 @@
               our findings suggest that an online setting may be more effective
               for delivering computing ethics courses where a primary goal is
               increasing open discussion and self-disclosure among participants.
-              <a target="_blank" href="https://dl.acm.org/doi/10.1145/3641555.3705248">DOI</a> <a target="_blank" href="https://drive.google.com/file/d/1SeUgRO7HskR72mAnu1P-7YI_MnjhQWZb/view?usp=sharing">Poster Demo</a> 
+              <a target="_blank" href="https://dl.acm.org/doi/10.1145/3641555.3705248">DOI</a> <a target="_blank" href="https://drive.google.com/file/d/1owELYrrhZ0whuPNa3hhgMKEim9uPx-ez/view?usp=sharing">Poster Demo</a> 
             </p>
           </div>
         </div>

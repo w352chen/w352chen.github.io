@@ -166,6 +166,29 @@
 
         <div class="research-section">
           <div class="research-paper">
+            <img src="images/ACM_TOCE.jpg" alt="ACM TOCE" class="paper-image" />
+            <div class="paper-content">
+              <h5 class="paper-title">
+                Make or Take: How Students Navigate Self-Created and Instructor-Provided Cheat Sheets
+              </h5>
+              <p><strong>Helen Weixu Chen</strong>, Victoria Sakhnini, and Lesley Istead</p>
+              <p class="paper-abstract">
+                <strong>Abstract:</strong> The use of cheat sheets in exams is often framed as a way to reduce cognitive load and support student performance. 
+                However, little is known about how students choose between self-created and instructor-provided cheat sheets, or how these choices relate to their broader approaches to exam preparation. 
+                We conducted a longitudinal study in a senior-level undergraduate software requirements course, where students could use either an instructor-provided or a self-created cheat sheet for both the midterm and final exams. 
+                Across three survey waves, we received 53, 50, and 44 responses, respectively. 
+                41 students completed all three surveys and formed the longitudinal cohort used to examine how choices and experiences evolved over time, while exam-specific analyses used all available responses from the corresponding wave.
+                Our findings identify several considerations that shaped students’ choices, including trust in instructor expertise, the desire for personalization, and preparation efficiency. 
+                We further show how students’ attitudes shifted over time and how their preferences were reflected in patterns of cheat sheet use, perceived content coverage, and challenges encountered during the exams.
+                (To appear in ACM TOCE)
+                <!-- <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>   -->
+              </p>
+            </div>
+          </div>
+        </div>      
+        
+        <div class="research-section">
+          <div class="research-paper">
             <img src="images/sketch-bug.gif" alt="sketch-bug" class="paper-image" />
             <div class="paper-content">
               <h5 class="paper-title">

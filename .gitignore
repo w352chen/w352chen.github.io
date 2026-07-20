@@ -33,7 +33,3 @@ Thumbs.db
 *.iml
 
 # Ignore files inside `files`, `images`, and `videos` folders
-files/*
-images/*
-videos/*
-

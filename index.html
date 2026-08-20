@@ -80,19 +80,27 @@
 
     .social-links {
       display: flex;
-      gap: 18px;
+      gap: 22px;
       align-items: center;
+      flex-wrap: wrap;
       margin-top: 6px;
     }
     .social-icon {
       position: relative;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       color: #007bff;
-      font-size: 1.4em;
+      font-size: 1.15em;
       text-decoration: none;
       transition: color 0.2s;
     }
     .social-icon:hover {
       color: #0056b3;
+    }
+    .social-label {
+      font-size: 0.95rem;
+      font-weight: 500;
     }
     .social-icon::after {
       content: attr(data-tooltip);
@@ -159,13 +167,13 @@
         </p>
         <div class="social-links">
           <a href="mailto:w352chen@uwaterloo.ca?subject=Request%20for%20CV" class="social-icon" data-tooltip="CV (by request)">
-            <i class="fas fa-file-lines"></i>
+            <i class="fas fa-file-lines"></i><span class="social-label">CV</span>
           </a>
           <a href="mailto:w352chen@uwaterloo.ca" class="social-icon" data-tooltip="Email">
-            <i class="fas fa-envelope"></i>
+            <i class="fas fa-envelope"></i><span class="social-label">Email</span>
           </a>
           <a href="https://scholar.google.com/citations?user=pT9OuusAAAAJ&hl=en" target="_blank" class="social-icon" data-tooltip="Google Scholar">
-            <i class="fab fa-google-scholar"></i>
+            <i class="fab fa-google-scholar"></i><span class="social-label">Google Scholar</span>
           </a>
         </div>
       </div>

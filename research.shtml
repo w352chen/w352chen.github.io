@@ -118,7 +118,58 @@
         font-size: 0.95em;
         color: #007bff;
       }
-      
+
+      .research-filter {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin: 10px 0 30px;
+      }
+      .filter-btn {
+        padding: 6px 14px;
+        border: 1px solid #007bff;
+        background: white;
+        color: #007bff;
+        border-radius: 999px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background 0.15s, color 0.15s;
+      }
+      .filter-btn:hover {
+        background: #eaf3ff;
+      }
+      .filter-btn.active {
+        background: #007bff;
+        color: white;
+      }
+      .paper-type-badge {
+        display: inline-block;
+        padding: 2px 10px;
+        border-radius: 999px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+      }
+      .paper-type-badge.conference {
+        background: #e7f1ff;
+        color: #0056b3;
+      }
+      .paper-type-badge.journal {
+        background: #e6f4ea;
+        color: #1e7e34;
+      }
+      .paper-type-badge.poster {
+        background: #fff4e0;
+        color: #a86a00;
+      }
+      .paper-type-badge.wip {
+        background: #eeeeee;
+        color: #555;
+      }
+      .research-section.is-hidden {
+        display: none;
+      }
 
     /* Flexbox layout for the body */
     
@@ -161,13 +212,46 @@
 
     <div class="container p-3">
       <h3>Research</h3>
-      <p>This page lists my published and accepted research work in reverse chronological order. 
+      <p>This page lists my published and accepted research work in reverse chronological order.
         I am deeply grateful to my supervisors for their guidance and to my collaborators for their support.</p>
 
-        <div class="research-section">
+        <!-- <div class="research-filter" role="tablist" aria-label="Filter publications by type">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="conference">Conference</button>
+          <button class="filter-btn" data-filter="journal">Journal</button>
+          <button class="filter-btn" data-filter="poster wip">Workshops / Posters / WIP</button>
+        </div> -->
+
+         <div class="research-section" data-type="poster">
+          <div class="research-paper">
+            <img src="images/UIST26light.jpeg" alt="ACM UIST" class="paper-image" />
+            <div class="paper-content">
+              <span class="paper-type-badge poster">Poster</span>
+              <h5 class="paper-title">
+                Design Friction for Writing with AI Chatbots: Probing the Tradeoff Between Engagement and Burden
+              </h5>
+              <p><strong>Helen Weixu Chen</strong> and Katy Ilonka Gero</p>
+              <p class="paper-abstract">
+                <strong>Abstract:</strong> AI chatbots can help people write faster, but they can also encourage overreliance by making it easy to turn minimal input into usable text. 
+                We study turn-level design friction: intentional constraints added to each chatbot exchange that slow, limit, or redirect how users request, access, or use model responses. 
+                We designed three friction probes for chat-based writing: input-scaled output, gated reveal, and sentence-limited output. 
+                In a within-subject study with 24 participants, these probes increased workload and task duration compared with a conventional AI chatbot baseline, while also increasing perceived ownership and recall of participants’ own writing. 
+                However, their effects were uneven. Interaction logs and interviews suggest that friction was most useful when added effort redirected users toward task-relevant decisions, such as decomposing the writing task, specifying intent, or assembling ideas themselves. 
+                It was less useful when users treated the constraint as a rule to satisfy, tried to restore a normal chatbot workflow, or shifted effort toward managing the interface.
+                (To appear in UIST 2026)
+                <a target="_blank" href="https://doi.org/10.1145/3830397.3841823">DOI</a> 
+                <a target="_blank" href="https://drive.google.com/file/d/1C2wIjFDhmvsvIXWPhzFU4dHUM3DeDsPO/view?usp=sharing">Poster Demo</a>
+              </p>
+            </div>
+          </div>
+        </div>      
+        
+
+        <div class="research-section" data-type="journal article">
           <div class="research-paper">
             <img src="images/ACM_TOCE.jpg" alt="ACM TOCE" class="paper-image" />
             <div class="paper-content">
+              <span class="paper-type-badge journal">Journal Article</span>
               <h5 class="paper-title">
                 Make or Take: How Students Navigate Self-Created and Instructor-Provided Cheat Sheets
               </h5>
@@ -187,10 +271,11 @@
           </div>
         </div>      
         
-        <div class="research-section">
+        <div class="research-section" data-type="conference proceeding">
           <div class="research-paper">
             <img src="images/sketch-bug.gif" alt="sketch-bug" class="paper-image" />
             <div class="paper-content">
+              <span class="paper-type-badge conference">Conference Proceeding</span>
               <h5 class="paper-title">
                 Sketch Bug: Using Sketch-Based Input for Interactive Code Debugging
               </h5>
@@ -202,16 +287,17 @@
                 In a controlled study with 24 programmers, we compared the sketch interface with conventional mouse-and-keyboard input on debugging tasks that required breakpoint placement, step-wise execution, and runtime state inspection. 
                 The results show that sketch-like input can support these execution-control tasks, while also introducing challenges in precision, recognition, and gesture recall. 
                 Our findings suggest that pen input is most promising where debugger interactions benefit from spatial grounding or continuous movement, rather than as a wholesale replacement for conventional debugging controls. (To appear in GI 2026)
-                <!-- <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>   -->
+                <a target="_blank" href="https://doi.org/10.1145/3831423.3831478">DOI</a>  
               </p>
             </div>
           </div>
         </div>
 
-        <div class="research-section">
+        <div class="research-section" data-type="conference proceeding">
           <div class="research-paper">
             <img src="images/gi.png" alt="think_inside_box" class="paper-image" />
             <div class="paper-content">
+              <span class="paper-type-badge conference">Conference Proceeding</span>
               <h5 class="paper-title">
                 Thinking Inside the Box: Building User Interfaces with Question-Guided Inputs
               </h5>
@@ -226,16 +312,17 @@
                 A within-subject study with 12 participants completing two comparable UI-building tasks found that the QGF enabled significantly fewer iterations and revisions, illustrating that answering guided questions helps create a more satisfactory initial prompt.
                 Interview results also revealed that the QGF encouraged more deliberate reflection on requirements, but also introduced extra time and a sense of constraint for some participants. 
                 Our findings highlight a fundamental trade-off between speed and structured guidance, informing the design of future GenAI interfaces for development. (To appear in GI 2026)
-                <!-- <a target="_blank" href="https://doi.org/10.1145/3706599.3719795">DOI</a>   -->
+                <a target="_blank" href="https://doi.org/10.1145/3831423.3831467">DOI</a>  
               </p>
             </div>
           </div>
         </div>
         
-        <div class="research-section">
+        <div class="research-section" data-type="wip">
           <div class="research-paper">
             <img src="images/imx_logo.jpg" alt="Late-Breaking-Work-IMX" class="paper-image" />
             <div class="paper-content">
+              <span class="paper-type-badge wip">Work in Progress</span>
               <h5 class="paper-title">
                 A Multi-Modal Exploration of Diversity in Visual Media Production Industries
               </h5>
@@ -255,10 +342,11 @@
           </div>
         </div>
 
-        <div class="research-section">
+        <div class="research-section" data-type="wip">
           <div class="research-paper">
             <img src="images/COMPASS25_logo.jpeg" alt="Late-Breaking-Work-COMPASS" class="paper-image" />
             <div class="paper-content">
+              <span class="paper-type-badge wip">Work in Progress</span>
               <h5 class="paper-title">
                 The Therapeutic Potential of AI-Generated Art in Short-Term Stress Management
               </h5>
@@ -275,10 +363,11 @@
           </div>
         </div>
         
-        <div class="research-section">
+        <div class="research-section" data-type="wip">
           <div class="research-paper">
             <img src="images/CHI25_logo.png" alt="Late-Breaking-Work" class="paper-image" />
             <div class="paper-content">
+              <span class="paper-type-badge wip">Work in Progress</span>
               <h5 class="paper-title">
                 Enhancing AI Explainability for Non-technical Users with LLM-Driven Narrative Gamification
               </h5>
@@ -297,10 +386,11 @@
           </div>
         </div>
 
-      <div class="research-section">
+      <div class="research-section" data-type="poster">
         <div class="research-paper">
           <img src="images/sigcse2025_logo.png" alt="Self-Disclosure" class="paper-image" />
           <div class="paper-content">
+            <span class="paper-type-badge poster">Poster</span>
             <h5 class="paper-title">
               Self-Disclosure and Beyond: Takeaways from an Online and In-Person Computing Ethics Course
             </h5>
@@ -323,10 +413,11 @@
         </div>
       </div>
 
-      <div class="research-section">
+      <div class="research-section" data-type="conference proceeding">
         <div class="research-paper">
           <img src="images/GI24.png" alt="Imagine a Dress" class="paper-image" width="650" height="400" />
           <div class="paper-content">
+            <span class="paper-type-badge conference">Conference Proceeding</span>
             <h5 class="paper-title">
               "Imagine a Dress": Exploring the case of task-specific prompt assistants for text-to-image AI tools
             </h5>
@@ -409,6 +500,21 @@
             var isOpen = wrapper.style.display === 'block';
             wrapper.style.display = isOpen ? 'none' : 'block';
             arrow.style.transform = isOpen ? '' : 'rotate(180deg)';
+          });
+        });
+
+        var filterBtns = document.querySelectorAll('.filter-btn');
+        var sections = document.querySelectorAll('.research-section');
+        filterBtns.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            filterBtns.forEach(function (b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            var wanted = btn.dataset.filter.split(' ');
+            sections.forEach(function (s) {
+              var type = s.dataset.type;
+              var show = wanted.indexOf('all') !== -1 || wanted.indexOf(type) !== -1;
+              s.classList.toggle('is-hidden', !show);
+            });
           });
         });
       });
